@@ -1,0 +1,115 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header-parent span{
+    color: blue;
+}
+.header-parent{
+    display: flex;
+    justify-content: space-between;
+     margin-right:12px; 
+     margin-left: 16px;
+}
+.header-parent ul{
+    display: flex;
+    font-size: 30px;
+    color: blue;
+    /* justify-content: space-between; */
+    gap: 52px;
+}
+
+.header-parent li{
+    cursor: pointer;
+    text-decoration:none;
+    display: flex;
+    gap: 42px;
+}
+.img{
+    width:300px; 
+    border-radius: 50%; 
+    margin-left: 32em;
+     margin-top: 45px ;
+     height:300px;
+}
+
+.hero-title{
+    font-size: 40px; 
+     margin-left: 11.9em; 
+     margin-top:18px;
+}
+.hero-title span{
+    color: blue;
+    font-weight: 100;
+    margin-left: 20px;
+}
+.skills-parent{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    font-size: 80px;
+    
+}
+#red{
+    color: red;
+}
+#blue{
+    color: rgb(27, 27, 236);
+}
+#yellow{
+    color: yellow;
+}
+#blue1{
+ color: blue;
+}
+
+.header{
+    text-align: center;
+    font-size: 60px;
+    color: blue;
+    margin-top: 5%;
+}
+.about{
+    width: 850px;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+.Projects-parent{
+  display: grid;
+  margin-top: 2%;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: space-around;
+}
+.box-1{
+    color: white;
+    padding: 8px;
+    background-color: rgb(65, 65, 252);
+    border-radius: 8px;
+    height: 400px;
+}
+.img-p{
+    width: 280px;
+    border-radius: 8px;
+    
+    height: 200px;
+}
+.contact{
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2%;
+}
+.social{
+    display: flex;
+    margin-left: 5%;
+    font-size: 22px;
+    margin-top: 1%;
+    gap: 22px;
+    cursor: pointer;
+}
